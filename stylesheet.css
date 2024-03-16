@@ -13,6 +13,7 @@ html{
     letter-spacing: 0.04rem;
     color: #222222;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   footer{
