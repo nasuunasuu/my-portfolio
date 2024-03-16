@@ -59,7 +59,6 @@ html{
   }
 
 
-@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
   /***ヘッダー***/
 .header{
     position: fixed;
@@ -171,6 +170,7 @@ html{
 @media (max-width: 450px) {
   body{
     font-size: 10px;
+    width: 100%;
   }
   .header{
     display: none;
