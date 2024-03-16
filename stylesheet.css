@@ -60,10 +60,6 @@ html{
 
 
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
-
-/* PC、タブレット対応 */
-@media (min-width: 605px) {
-
   /***ヘッダー***/
 .header{
     position: fixed;
@@ -152,16 +148,13 @@ html{
   
 }
 
-/* about */
 .about-icon{
   width: 100px;
   margin-bottom: 40px;
 }
-/* .skills */
 .skills-inner{
   margin-bottom: 60px;
 }
-/* works */
 .works-inner{
   display: flex;
   overflow-x: scroll;
@@ -174,4 +167,25 @@ html{
 }
 
 
+/*スマホ対応 */
+@media (max-width: 450px) {
+  body{
+    font-size: 10px;
+  }
+  .header{
+    display: none;
+  }
+  .fade-in-text{
+    top: 60px;
+    font-size: 25px;
+  }
+  .loop{
+    height: 400px;
+  }
+  .works-img{
+    width: 250px;
+  }
+  .sushi-img{
+    width: 300px;
+  }
 }
