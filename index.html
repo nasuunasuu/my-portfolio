@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,7 +44,7 @@
                     </p>
                 </div>
             </div>
-            
+
         </section>
 
         <section class="skills" id="Skills">
@@ -62,22 +63,45 @@
         <section class="works" id="Works">
             <h2 class="section-title">Works</h2>
             <P class="section-subtitle">制作物</P>
+            
             <div class="section-inner">
                 <div class="works-inner">
                     <div class="works-parts">
-                        <img class="works-img" src="img/sushi.png"> 
+                        <div class="works-img-background">
+                            <img class="works-img" src="img/modal1.png">
+                        </div>
+                        <p>このポートフォリオについて</p>
+                        <button id="modal-open-btn1"  class="modal-open">show more!</button>
+                        <div id="modal-content1" class="modal-content">
+                            <div class="modal">
+                                <div class="modal-img-background">
+                                    <img src="img/modal1.png" class="modal-img">
+                                </div>
+                                <div class="modal-text">
+                                    <h2>作品名</h2>
+                                    <p>ポートフォリオ</p>
+                                    <h2>概要</h2>
+                                    <p>自分の作品をまとめるために、JavaScriptを学びながら作成しました。</p>
+                                    <h2>工夫</h2>
+                                    <p>私の大好きなシャリタツというポケモンの背景のイラストを自分で書き、cssで動かしてみました。シンプルなデザインで統一感を出しています。</p>
+                                    <h2>使用言語</h2>
+                                    <p>JavaScript</p>
+                                    <button id="modal-close-btn1" class="modal-close">close</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="works-parts">
+                        <img class="works-img" src="img/sushi.png">
                         <p>このポートフォリオについて</p>
                     </div>
                     <div class="works-parts">
-                        <img class="works-img" src="img/sushi.png"> 
-                        <p>このポートフォリオについて</p>
-                    </div>
-                    <div class="works-parts">
-                        <img class="works-img" src="img/sushi.png"> 
+                        <img class="works-img" src="img/sushi.png">
                         <p>このポートフォリオについて</p>
                     </div>
                 </div>
-                
+
             </div>
         </section>
 
@@ -86,8 +110,8 @@
             <P class="section-subtitle">私の大好きなポケモン、シャリタツ</P>
             <div class="section-inner">
                 <p>自分が弱いことを理解しているため、仲間と協力します。<br>
-                悪賢く、死んだふりをして獲物をおびき寄せます。</p>
-                <img class="sushi-img" src="img/sushi_6.jpg"> 
+                    悪賢く、死んだふりをして獲物をおびき寄せます。</p>
+                <img class="sushi-img" src="img/sushi_6.jpg">
             </div>
         </section>
     </main>
@@ -95,5 +119,7 @@
     <footer>
         <p class="footer-copyright">©2024 nasuu0612</p>
     </footer>
+    <script src="index.js"></script>
 </body>
+
 </html>

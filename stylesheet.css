@@ -160,9 +160,52 @@ html{
 }
 .works-parts{
   margin: 0 10px 10px;
+
 }
 .works-img{
   width: 400px;
+}
+.works-img-background{
+  background-color: #c4edff;
+}
+
+.modal-open, .modal-close{
+  padding: 3px 10px;
+  background-color:#00b3ff;
+  color: #fff;
+  font-family: bold;
+  border:none;
+  border-radius: 5px;
+}
+.modal-content{
+  display: none;
+}
+.modal{
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #222222;
+}
+.modal-img{
+  width: 60%;
+}
+.modal-img-background{
+  background-color: #c4edff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.modal-text{
+  padding: 5% 10%;
+}
+.modal h2{
+  font-size: 20px;
+  color: #00b3ff;
+}
+.modal p{
+  font-size: 10px;
 }
 
 
