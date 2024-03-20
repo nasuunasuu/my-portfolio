@@ -165,9 +165,6 @@ html{
 .works-img{
   width: 400px;
 }
-.works-img-background{
-  background-color: #c4edff;
-}
 
 .modal-open, .modal-close{
   padding: 3px 10px;
